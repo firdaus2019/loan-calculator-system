@@ -1,0 +1,89 @@
+/* CustomerList.css */
+
+.customer-table-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-customer {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-customer:hover {
+    background-color: #218838;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customer-table th, .customer-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.customer-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.customer-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.small-col {
+    width: 50px; /* Adjust width for ID column */
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-of-type(1) {
+    background-color: #007bff;
+    color: white;
+}
+
+button:nth-of-type(2) {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:nth-of-type(1):hover {
+    background-color: #0056b3;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #c82333;
+}
